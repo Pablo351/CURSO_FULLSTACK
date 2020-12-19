@@ -1,0 +1,87 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 65.5%;
+  
+}
+
+html, body {
+  margin: 0;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.header {
+  height: 96px;
+  border-bottom: 1px solid #E0752F;
+}
+
+.logo {
+  float: left;
+  display: block;
+  padding: 30pX 16PX;
+  margin-left: 95px;
+}
+
+.navbar {
+  float: right;
+  margin-right: 100px;
+}
+
+.navbar > ul > li {
+  display: inline-block;
+}
+
+.navbar > ul > li > a {
+  display: block; 
+  padding: 28px 16px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.Home {
+  height: 768px;
+  padding: 200px 700px 400px 100px;
+  color: white;
+}
+
+.Home h2 {
+  font-size: 48px;
+}
+
+.homep {
+  font-size: 16px;
+}
+
+.boton {
+  display: flex;
+  background-color: #E0752F;
+  padding: 14px 32px 14px 32px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  margin-top: 25px;
+}
+
+.header, .Home {
+  background-image: url(../IMAGENES/slider-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+  background-attachment: fixed;
+}
+/*# sourceMappingURL=app.css.map */

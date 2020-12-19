@@ -1,0 +1,21 @@
+html{
+    box-sizing: border-box;
+    font-size: 65.5%;   
+    
+}
+html, body{
+    margin: 0;
+        
+}
+
+.clearfix::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}

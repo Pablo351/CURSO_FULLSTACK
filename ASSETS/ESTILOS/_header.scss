@@ -1,0 +1,32 @@
+.header{
+    height: 96px;
+    //background-color: black;
+    border-bottom: 2px solid orange;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    
+    .logo{
+        justify-content: flex-start;
+        align-items: center;
+        padding: 30pX 16PX;
+        margin-left: 95px;
+    }
+    .navbar{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 30pX 16PX;  
+        margin-right: 100px; 
+    
+        a{
+            padding: 28px 16px;
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+        }
+    }
+}
+
+

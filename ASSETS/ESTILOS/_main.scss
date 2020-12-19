@@ -1,0 +1,29 @@
+.Home {
+    height: 768px;
+    padding: 200px 700px 400px 100px;
+    color: white;
+    //background-color: black;
+    width: 100%;
+    background-image: url(../IMAGENES/slider-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    h2 {
+        font-size: 48px;
+        
+      }
+    p{
+        font-size: 16px;
+    }
+    .boton {
+        display: flex;
+        width: max-content;
+        background-color: #E0752F;
+        padding: 14px 32px 14px 32px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+        margin-top: 35px;
+      }
+      
+  }
