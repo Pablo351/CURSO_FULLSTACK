@@ -1,20 +1,51 @@
 .products{
     height: 768px;
     background: linear-gradient(90deg, #f2f4f1 75%, #dce1da 25%);
+    width: auto;
+    padding: 108px 200px;
+    
     div{
-        background: transparent url("../IMAGENES/section3-image.png");
+        background-image:  url("../IMAGENES/section3-image.png");
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        height: 522px;
+        width: auto 70%;
+        background-repeat: no-repeat;
+        background-size: cover;
 
         div{
-            background-color: orange;
-            p {
+            background: #E0752F;          
+            align-items: flex-end;
+            justify-content: flex-end;
+            width: 471px;
+            height: 304px;
+
+            div{
+                flex-direction: column;
                 color: white;
+                align-items: flex-start;
+                justify-content: center;
+                margin-left: 50px;
+                p{
+                    font-size: 16px;
+                }
+                h2{
+                    font-size: 39px;
+                }
+
             }
-            h2{
-                color: white;
+                
+            a{
+                padding: 10px 10px 10px 0px;
             }
+            
+
+        }
+
         }
 
 
-
     }
-}
+
+
